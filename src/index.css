@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-gradient-netflix {
+    @apply bg-gradient-to-r from-netflix to-black bg-clip-text text-transparent;
+  }
+
+  .text-gradient-netflix-reverse {
+    @apply bg-gradient-to-r from-black to-netflix bg-clip-text text-transparent;
+  }
+
+  .active {
+    @apply text-netflix;
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Netflix",
+      "productItems": {
+        "type": {
+          "sharing": [
+            {
+              "price": "1.000",
+              "time": "1 Day"
+            },
+            {
+              "price": "5.000",
+              "time": "3 Day"
+            },
+            {
+              "price": "10.000",
+              "time": "7 Day"
+            }
+          ],
+          "private": [
+            {
+              "price": "150.000",
+              "time": "1 Month"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "productName": "Spotify",
+      "productItems": {
+        "type": {
+          "inplan": [
+            {
+              "price": "10.000",
+              "time": "1 Month"
+            },
+            {
+              "price": "16.000",
+              "time": "2 Month"
+            },
+            {
+              "price": "20.000",
+              "time": "3 Month"
+            },
+            {
+              "price": "24.000",
+              "time": "4 Month"
+            },
+            {
+              "price": "30.000",
+              "time": "5 Month"
+            },
+            {
+              "price": "34.000",
+              "time": "6 Month"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
